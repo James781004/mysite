@@ -4,4 +4,4 @@ python:
 install:
   - pip install
 script:
- - python manage.py test
+ - python3 manage.py test
