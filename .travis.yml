@@ -2,6 +2,7 @@ language: python
 python: 
   - 3.6
 install:
-  - pip install
+  - pip install -q Django==$DJANGO_VERSION
+  - python setup.py -q install
 script:
  - python manage.py test
