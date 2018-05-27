@@ -3,6 +3,5 @@ python:
   - 3.6
 install:
   - pip install -q Django==2.0.5
-  - pip install
 script:
  - python manage.py test
